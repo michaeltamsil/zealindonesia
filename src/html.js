@@ -12,9 +12,6 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <link rel="shortcut icon" href="/favicon.png"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet"/>
-        <link rel="stylesheet" href='/bootstrap.min.css' />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -27,8 +24,9 @@ export default function HTML(props) {
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: props.body }}
           />
+          {props.postBodyComponents}
         </div>
-        {props.postBodyComponents}
+        
       </body>
     </html>
   )
