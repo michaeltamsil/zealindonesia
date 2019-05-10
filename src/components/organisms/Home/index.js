@@ -15,7 +15,7 @@ export default class Home extends Component {
         return (
             <div>
                 <Row>
-                    <Col sm="6">
+                    <Col sm="8">
                         <h1>
                             LIGHT-UP YOUR SKILL WITH ZEAL
                         </h1>
@@ -24,14 +24,8 @@ export default class Home extends Component {
                             Full Lifetime Support, Full Spectrum Support and Digital Report
                         </div>
                     </Col>
-                    <Col sm="6" style={style}>
-                    </Col>
-                </Row>
-                <Row className="mt-4">
-                    <Col className="text-center">
-                        <Button color="success">
-                            <h1>Register Now</h1>
-                        </Button>
+                    <Col sm="4">
+                        <div style={style}/>
                     </Col>
                 </Row>
             </div>

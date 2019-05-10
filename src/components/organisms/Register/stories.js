@@ -1,11 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Home from '.';
+import Register2 from '.';
 
-storiesOf('organisms / Home', module)
+storiesOf('organisms / Register', module)
     .add('example', () => {
         return (
-            <Home/>
+            <Register2/>
         )
     })
