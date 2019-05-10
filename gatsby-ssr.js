@@ -13,5 +13,5 @@ export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
 
     setPostBodyComponents([
         <Footer/>
-    ])    
+    ])
 };

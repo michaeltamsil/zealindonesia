@@ -13,7 +13,7 @@ export default class Home extends Component {
         }
 
         return (
-            <div>
+            <div id="home">
                 <Row>
                     <Col sm="8">
                         <h1 style={{

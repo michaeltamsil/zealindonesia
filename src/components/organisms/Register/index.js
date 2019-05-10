@@ -2,9 +2,8 @@ import React from 'react';
 import {Button, Col, Form, FormGroup, Input, Label, Row} from 'reactstrap';
 export default () => {
     return (
-        <Form>
+        <Form id="register" action="https://formspree.io/zealclub1@gmail.com" method="post">
             <Row>
-
                 <Col sm="6">
                     <FormGroup row>
                         <Label for="name" sm={4}>Name</Label>
@@ -22,7 +21,7 @@ export default () => {
                     </FormGroup>
                 </Col>
                 <Col className="text-center">
-                    <Button color="primary" size="md">Subscribe</Button>
+                    <Button color="primary" size="md" type="submit">Subscribe</Button>
                 </Col>
             </Row>
         </Form>
