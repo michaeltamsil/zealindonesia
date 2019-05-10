@@ -16,13 +16,16 @@ export default class Home extends Component {
             <div>
                 <Row>
                     <Col sm="8">
-                        <h1>
+                        <h1 style={{
+                            fontFamily: "'Roboto', sans-serif",
+                            fontSize: '5em'
+                        }}>
                             LIGHT-UP YOUR SKILL WITH ZEAL
                         </h1>
                         <br/>
-                        <div>
+                        <h2 className="text-primary">
                             Full Lifetime Support, Full Spectrum Support and Digital Report
-                        </div>
+                        </h2>
                     </Col>
                     <Col sm="4">
                         <div style={style}/>

@@ -13,6 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
         <link rel="shortcut icon" href="/favicon.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet"/>
         <link rel="stylesheet" href='/bootstrap.min.css' />
       </head>
       <body {...props.bodyAttributes}>
@@ -20,7 +21,7 @@ export default function HTML(props) {
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
         </noscript>
-        <div class="container">
+        <div className="container">
           <div
             key={`body`}
             id="___gatsby"
