@@ -16,8 +16,7 @@ export default class Home extends Component {
             <div id="home">
                 <Row>
                     <Col sm="8">
-                        <h1 style={{
-                            fontFamily: "'Roboto', sans-serif",
+                        <h1 className="roboto" style={{
                             fontSize: '5em'
                         }}>
                             LIGHT-UP YOUR SKILL WITH ZEAL
