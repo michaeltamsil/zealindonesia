@@ -26,7 +26,6 @@ export default function HTML(props) {
           />
           {props.postBodyComponents}
         </div>
-        
       </body>
     </html>
   )
